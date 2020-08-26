@@ -176,3 +176,24 @@ button.ghost {
 .overlay-left {
   transform: translateX(-20%);
 }
+
+/*  Animation */
+
+/* move signIn to the right */
+.container.right-panel-active .sign-in-container {
+  transform: translateX(100%);
+}
+
+/* move overlay to the left */
+.container.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+/* Bring signUp over signIn */
+.container.right-panel-active .sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+}
+
+/* move overlay back to the right */
