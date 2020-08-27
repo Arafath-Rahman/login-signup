@@ -6,9 +6,17 @@
 
 body {
   font-family: "Montserrat", "sans-serif";
-  background: #dae2f8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #d6a4a4, #dae2f8);
-  background: linear-gradient(to top, #d6a4a4, #dae2f8);
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   display: flex;
   flex-direction: column;
@@ -36,7 +44,7 @@ span {
 }
 
 a {
-  color: #333;
+  color: #50ad02;
   font-size: 14px;
   text-decoration: none;
   margin: 15px 0;
